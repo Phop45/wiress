@@ -107,3 +107,12 @@
 .all-value .two-val .value{
     width: 50%;
 }
+
+.circle {
+    animation: contentFade 0.7s ease-in-out;
+  }
+
+  @keyframes contentFade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
